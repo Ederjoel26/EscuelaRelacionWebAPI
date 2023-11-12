@@ -89,10 +89,11 @@ namespace EscuelaRelacion.Controllers
                 Escuela.SaveChanges();
                 return true;
             }
-            catch
+            catch (Exception ex)
             {
                 return false;
             }
         }
+
     }
 }
